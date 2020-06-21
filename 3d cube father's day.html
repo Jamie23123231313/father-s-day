@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset= "UTF-8">
+    <title>父亲节快乐！</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+	
+</head>
+<body>
+   
+
+    <div align="center" style="direction: ltr;">
+
+        <div style="text-align:center;padding:10px;">
+            <h1>专属于我爸爸的父亲节礼物</h1>
+	</div>
+        <div class="wrap">
+            <div class="cube">
+                <div class="front">
+
+                <img src="picture 1.jpg" alt="family pic 1" height="200" width="200"> 
+                </div>
+                <div class="back">
+                    <img src="picture 2.jpg" alt="family pic 2" height="200" width="200"> 
+                </div>
+                <div class="top">
+                    <img src="picture 3.jpg" alt="family pic 3" height="200" width="200"> 
+                </div>
+                <div class="bottom">
+                    <img src="picture 4.jpg" alt="family pic 4" height="200" width="200"> 
+                </div>
+                <div class="left">
+                    <img src="picture 5.jpg" alt="family pic 5" height="200" width="200"> 
+                </div>
+                <div class="right">
+                    <img src="picture 6.jpg" alt="family pic 5" height="200" width="200">  
+                </div>
+            </div>
+        </div>
+            </div>
+
+        <div style="text-align:center;padding-top:200px;">
+            爸今天是父亲节，虽然我们没能一起过父亲节但是我们给你准备了一些小心意，首先感谢爸爸一直努力的工作所以我们才能一直无所顾虑的生活，然后呢，谢谢爸这些年和我们一起留下的开心又美好的记忆，希望希望我们以后可以继续一起做更多的记忆。
+			<h1> 来自猫猫的心意 <h1>
+			<video width="450" height="450" controls>
+			  <source src="A video.mp4" type="video/mp4">
+			  <source src="A video.ogg" type="video/ogg">
+			  Your browser does not support the video tag.
+			</video>
+			
+			<h1> 来自妞妞的心意 <h1>
+			<img src="T picture.jpg" alt="family pic 5" height="450" width="450"> 
+
+			<video width="450" height="450" controls>
+			  <source src="T video.mp4" type="video/mp4">
+			  <source src="T video.ogg" type="video/ogg">
+			  Your browser does not support the video tag.
+			</video>
+			
+			<h1> Jacky 的祝福 <h1>
+			<h1> Jammy献给爸的歌声 <h1>
+			
+        </div>
+		<div align="left" style="direction: ltr;">
+			<h1> 我们一起走过的岁月 <h1>
+			<img src="picture 8.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 9.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 10.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 11.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 12.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 13.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 14.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 15.jpg" alt="family pic 5" height="650" width="650">
+			<img src="picture 16.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 17.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 18.jpg" alt="family pic 5" height="650" width="650"> 
+			<img src="picture 19.jpg" alt="family pic 5" height="650" width="650"> 
+        <style>
+
+            .wrap {
+                margin-top: 150px;
+                perspective:2000px;
+                perspective-origin: 50% 50%;
+                
+               
+            }
+
+            @keyframes bganim {
+                from {
+                    background-position: 0px;
+                }
+
+                to {
+                    background-position: 100px;
+                }
+            }
+
+            .cube {
+                margin: auto;
+                position: relative;
+                height: 200px;
+                width: 200px;
+                transform-style: preserve-3d;
+            }
+
+                .cube div {
+                    position: absolute;
+                    box-sizing: border-box;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0.9;
+                    font: 10px arial;
+                    transition: transform 0.2s ease-in;
+                }
+
+            .front {
+                transform: translateZ(100px);
+            }
+
+            .back {
+                transform: translateZ(-100px) rotateY(180deg);
+            }
+
+            .right {
+                transform: rotateY(-270deg) translateX(100px);
+                transform-origin: top right;
+            }
+
+            .left {
+                transform: rotateY(270deg) translateX(-100px);
+                transform-origin: center left;
+            }
+
+            .top {
+                transform: rotateX(-270deg) translateY(-100px);
+                transform-origin: top center;
+            }
+
+            .bottom {
+                transform: rotateX(270deg) translateY(100px);
+                transform-origin: bottom center;
+            }
+
+            @Keyframes rotate {
+                from {
+                    transform: rotateX(0deg) rotateY(0deg);
+                }
+
+                to {
+                    transform: rotateX(360deg) rotateY(360deg);
+                }
+            }
+
+            .cube {
+                animation: rotate 20s infinite linear;
+            }
+
+            .wrap:hover .front {
+                transform: translateZ(200px);
+            }
+
+            .wrap:hover .back {
+                transform: translateZ(-200px) rotateY(180deg);
+            }
+
+            .wrap:hover .right {
+                transform: rotateY(-270deg) translateZ(100px) translateX(100px);
+            }
+
+            .wrap:hover .left {
+                transform: rotateY(270deg) translateZ(100px) translateX(-100px);
+            }
+
+            .wrap:hover .top {
+                transform: rotateX(-270deg) translateZ(100px) translateY(-100px);
+            }
+
+            .wrap:hover .bottom {
+                transform: rotateX(270deg) translateZ(100px) translateY(100px);
+            }
+        </style>
+    </div>
+    
+</body>
+</html>
+
